@@ -1,4 +1,4 @@
-# 固定 bulk 上的金属–氧单键与 M–O–M 路径统计
+# 一种适用于金属氧化物的键长和构型的统计方法
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
@@ -48,7 +48,7 @@ python scripts/verify_results.py --results .reproduction
 ## 阅读结果前需要知道
 
 - 原文件名是 `BaFeO (1).vasp`，首行标题为 `Ba2 Fe24 O38`，但正式元素行是 `Sr Ga O`。**用户明确确认使用 Sr/Ga/O。**[data/bulk_input_original.vasp](data/bulk_input_original.vasp) 保存的是未经修改的原文件。这是由于Jiamao所建立的原文档是以BaFe12O19为对象研究，以此为POSCAR。
-- 所有距离、成键阈值和类别边界均由新 bulk 重新计算，没有沿用旧 bulk 的阈值或类别。
+- 所有距离、成键阈值和类别边界均由新 bulk 重新计算，没有沿用旧 bulk 的阈值或类别。但是整体思路一致。
 - 目前按**每个晶胞内金属/O 编号对只保留一个最短周期镜像**计数。存在 6 组 Sr/O 编号对，其多个镜像都在成键范围内，因此当前数量不等同于完整周期邻居配位数。详见[周期性约定与限制](docs/zh/workflow.md#5-周期距离约定)。
 - 这里的类别是明确规则下的几何分类，不等同于已经独立证明的化学键或交换常数。
 
