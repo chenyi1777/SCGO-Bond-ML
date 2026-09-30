@@ -1,0 +1,9 @@
+[
+  "AFM_Cr_signs_not_mixed;Cr_sign_pattern_changed_from_MAGMOM",
+  "Cr_moment_outside_2.5_to_3.5_muB",
+  "Cr_moment_outside_2.5_to_3.5_muB;AFM_Cr_signs_not_mixed;Cr_sign_pattern_changed_from_MAGMOM",
+  "Cr_moment_outside_2.5_to_3.5_muB;Cr_sign_pattern_changed_from_MAGMOM",
+  "Cr_sign_pattern_changed_from_MAGMOM",
+  "OUTCAR_not_finished;ionic_not_converged",
+  "missing_final_energy;OUTCAR_not_finished;ionic_not_converged;missing_final_moments"
+]

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "bulk_sha256": "73bfd6939e1f1996e2938504004307aeb6ef55716ae53223f229fd8cc8c0305a",
+  "configurations": 75,
+  "bonds": 11400,
+  "paths": 17100,
+  "bilingual_CSV_pairs_checked": 381,
+  "bilingual_POSCAR_pairs_checked": 75,
+  "configuration_occupations_match_archived_HPC_manifest": true,
+  "note": "geometry assertions run in count_doped.py; this check validates stored tables and parity"
+}

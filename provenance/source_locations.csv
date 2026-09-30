@@ -1,0 +1,6 @@
+﻿role,original_location,bundled_path
+authoritative new geometry,C:/Users/yuany/Downloads/BaFeO (1).vasp,data/bulk_input_original.vasp
+accepted new-bulk counts,C:\Users\yuany\Documents\ChatGPT\count bond\results_new_bulk_Cr2_4_6_8_10_20260930,results/zh/ and results/en/
+inherited occupations and HPC audit,C:\Users\yuany\Downloads\交接包_后续Agent_固定bulk与ML.zip,data/configuration_sites.csv and provenance/; selected files only
+inherited handoff context,C:/Users/yuany/Downloads/给后续Agent的交接说明.md,not copied; counting-only context rewritten in docs/
+HPC root,"/ix/gwang/yiy219/SrCrGaO/{2,4,6,8,10}/Compare_Energy/",path records only; no raw HPC OUTCAR/INCAR/POSCAR

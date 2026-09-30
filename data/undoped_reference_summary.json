@@ -1,0 +1,36 @@
+{
+  "title": "Ba2 Fe24 O38",
+  "composition": {
+    "Sr": 2,
+    "Ga": 24,
+    "O": 38
+  },
+  "POSCAR": "C:\\Users\\yuany\\Documents\\ChatGPT\\count bond\\results_BaFeO_1_new_bulk_20260930\\input_original.vasp",
+  "cutoffs": {
+    "Sr": {
+      "cutoff_A": 3.5296517651287473,
+      "gap_lower_A": 2.958098043228469,
+      "gap_upper_A": 4.101205487029025,
+      "bond_count": 18,
+      "length_type_count": 2
+    },
+    "Ga": {
+      "cutoff_A": 2.7836436024885955,
+      "gap_lower_A": 2.2779384420000004,
+      "gap_upper_A": 3.2893487629771907,
+      "bond_count": 134,
+      "length_type_count": 11
+    }
+  },
+  "length_tolerance_A": 1e-05,
+  "angle_tolerance_deg": 0.01,
+  "bond_count": 152,
+  "path_count": 228,
+  "baseline_possible_types": 91,
+  "existing_types": 16,
+  "family_counts": {
+    "Ga-O-Ga": 174,
+    "Sr-O-Ga": 54,
+    "Sr-O-Sr": 0
+  }
+}

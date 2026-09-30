@@ -1,0 +1,6 @@
+﻿nCr_cell,configuration_count,bond_type_union_count,MOM_type_union_count,min_bond_types_per_configuration,max_bond_types_per_configuration,min_path_types_per_configuration,max_path_types_per_configuration,total_bonds_all_configurations,total_paths_all_configurations
+2,13,24,43,13,18,16,30,1976,2964
+4,17,24,48,13,22,16,35,2584,3876
+6,15,24,48,13,20,16,39,2280,3420
+8,16,24,50,17,20,26,39,2432,3648
+10,14,24,49,17,21,26,35,2128,3192

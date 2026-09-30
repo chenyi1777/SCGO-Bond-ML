@@ -1,0 +1,122 @@
+{
+  "samples": 75,
+  "source_sha256": "73bfd6939e1f1996e2938504004307aeb6ef55716ae53223f229fd8cc8c0305a",
+  "cutoffs": {
+    "Sr": {
+      "cutoff_A": 3.5296517651287473,
+      "gap_lower_A": 2.958098043228469,
+      "gap_upper_A": 4.101205487029025
+    },
+    "Ga": {
+      "cutoff_A": 2.7836436024885955,
+      "gap_lower_A": 2.2779384420000004,
+      "gap_upper_A": 3.2893487629771907
+    }
+  },
+  "global_bond_types": 24,
+  "global_observed_path_types": 51,
+  "theoretical_path_types": 300,
+  "additional_angle_subtypes": 0,
+  "max_generated_poscar_coordinate_error_A": 1.2804514477937622e-15,
+  "multi_image_index_pairs": [
+    [
+      "Sr",
+      1,
+      2,
+      2
+    ],
+    [
+      "Sr",
+      1,
+      16,
+      2
+    ],
+    [
+      "Sr",
+      1,
+      35,
+      2
+    ],
+    [
+      "Sr",
+      2,
+      10,
+      2
+    ],
+    [
+      "Sr",
+      2,
+      23,
+      2
+    ],
+    [
+      "Sr",
+      2,
+      37,
+      2
+    ]
+  ],
+  "levels": [
+    {
+      "nCr_cell": 2,
+      "configuration_count": 13,
+      "bond_type_union_count": 24,
+      "MOM_type_union_count": 43,
+      "min_bond_types_per_configuration": 13,
+      "max_bond_types_per_configuration": 18,
+      "min_path_types_per_configuration": 16,
+      "max_path_types_per_configuration": 30,
+      "total_bonds_all_configurations": 1976,
+      "total_paths_all_configurations": 2964
+    },
+    {
+      "nCr_cell": 4,
+      "configuration_count": 17,
+      "bond_type_union_count": 24,
+      "MOM_type_union_count": 48,
+      "min_bond_types_per_configuration": 13,
+      "max_bond_types_per_configuration": 22,
+      "min_path_types_per_configuration": 16,
+      "max_path_types_per_configuration": 35,
+      "total_bonds_all_configurations": 2584,
+      "total_paths_all_configurations": 3876
+    },
+    {
+      "nCr_cell": 6,
+      "configuration_count": 15,
+      "bond_type_union_count": 24,
+      "MOM_type_union_count": 48,
+      "min_bond_types_per_configuration": 13,
+      "max_bond_types_per_configuration": 20,
+      "min_path_types_per_configuration": 16,
+      "max_path_types_per_configuration": 39,
+      "total_bonds_all_configurations": 2280,
+      "total_paths_all_configurations": 3420
+    },
+    {
+      "nCr_cell": 8,
+      "configuration_count": 16,
+      "bond_type_union_count": 24,
+      "MOM_type_union_count": 50,
+      "min_bond_types_per_configuration": 17,
+      "max_bond_types_per_configuration": 20,
+      "min_path_types_per_configuration": 26,
+      "max_path_types_per_configuration": 39,
+      "total_bonds_all_configurations": 2432,
+      "total_paths_all_configurations": 3648
+    },
+    {
+      "nCr_cell": 10,
+      "configuration_count": 14,
+      "bond_type_union_count": 24,
+      "MOM_type_union_count": 49,
+      "min_bond_types_per_configuration": 17,
+      "max_bond_types_per_configuration": 21,
+      "min_path_types_per_configuration": 26,
+      "max_path_types_per_configuration": 35,
+      "total_bonds_all_configurations": 2128,
+      "total_paths_all_configurations": 3192
+    }
+  ],
+  "verification": "75 generated structures independently checked against new bulk distances; all assertions passed"
+}

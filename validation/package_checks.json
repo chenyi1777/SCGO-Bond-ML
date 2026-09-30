@@ -1,0 +1,21 @@
+{
+  "local_markdown_links_checked": 46,
+  "missing_links": 0,
+  "required_bilingual_documents": [
+    "README.md",
+    "README.zh-CN.md",
+    "docs/en/workflow.md",
+    "docs/zh/workflow.md",
+    "docs/en/tutorial.md",
+    "docs/zh/tutorial.md",
+    "docs/en/data_and_provenance.md",
+    "docs/zh/data_and_provenance.md"
+  ],
+  "ML_artifact_filename_check": "passed",
+  "excluded_from_archive": [
+    "__pycache__",
+    ".git"
+  ],
+  "raw_HPC_OUTCAR_INCAR_POSCAR_included": false,
+  "new_bulk_and_75_doped_POSCARs_in_each_language_included": true
+}

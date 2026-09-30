@@ -1,0 +1,50 @@
+{
+  "reference": "data/bulk_input_original.vasp",
+  "elements": [
+    "Sr",
+    "Ga",
+    "Cr",
+    "O"
+  ],
+  "cell_atom_count": 64,
+  "replaceable_Ga_site_count": 24,
+  "nCr_cell": [
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "length_tolerance_A": 1e-05,
+  "angle_tolerance_deg": 0.01,
+  "gap_search_windows_A": {
+    "Sr": [
+      0.5,
+      5.0
+    ],
+    "Ga_Cr": [
+      0.5,
+      4.0
+    ]
+  },
+  "gap_window_bounds": "exclusive",
+  "bond_acceptance": "distance < cutoff",
+  "periodic_shifts_for_counting": [
+    -1,
+    0,
+    1
+  ],
+  "periodic_shifts_checked": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "image_convention": "one shortest periodic image per cell-indexed metal/O pair",
+  "software": {
+    "python": "3.12",
+    "numpy": "2.3.5"
+  },
+  "note": "record of fixed settings implemented in scripts; this JSON is documentation, not a runtime configuration file"
+}
