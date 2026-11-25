@@ -33,7 +33,3 @@ python scripts/verify_training_dataset.py
 ```
 
 The script checks file hashes, the occupation and provenance joins, both archived moment sets, and the selected energies. It independently recomputes all 88 × 51 path counts from the parent structure.
-
-## Historical 75-configuration example
-
-The original 75-configuration bond-counting tutorial and outputs remain available as a historical example. Its inputs and outputs are under `data/`, `results/`, `provenance/`, and `validation/`. The archive’s `SHA256SUMS.csv` describes the earlier packaged snapshot. See the [historical workflow](docs/en/workflow.md), [tutorial](docs/en/tutorial.md), and [historical data reference](docs/en/legacy_data_and_provenance.md).

@@ -7,7 +7,7 @@ from pathlib import Path
 
 import numpy as np
 
-from scgo_one_case import (
+from mom51_geometry import (
     classify_bonds,
     enumerate_paths,
     read_poscar,

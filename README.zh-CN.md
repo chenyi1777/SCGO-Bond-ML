@@ -33,7 +33,3 @@ python scripts/verify_training_dataset.py
 ```
 
 脚本验证文件校验值、占位和来源对应关系、两分支的归档磁矩及所选能量，并从固定母相结构重新计算全部 88 × 51 个路径计数。
-
-## 历史 75 构型示例
-
-原有 75 构型的键长统计教程与结果以历史示例保留。其输入输出位于 `data/`、`results/`、`provenance/` 和 `validation/`。根目录的 `SHA256SUMS.csv` 对应早期打包快照。详见[历史流程](docs/zh/workflow.md)、[历史教程](docs/zh/tutorial.md)和[历史数据说明](docs/zh/legacy_data_and_provenance.md)。

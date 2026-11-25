@@ -26,5 +26,3 @@
 用 `configuration_id` 或 `occupation_key` 关联[逐构型来源表](../../appendices/appendix-f/configuration_provenance.csv)与[构型数据表](../../appendices/appendix-f/configurations.csv)。来源表分别记录 AFM 和 FM 的实际运行目录，以原 SCGO 项目根目录为基准，出现续算或重跑时保留对应目录名。`source_cohort` 标识早期原始批次、早期重建批次和补充计算，补充计算的作业数组编号对应原提交批次。
 
 已发布的结构文件包括各构型所选磁态分支的初始和弛豫后结构。构型表给出了两个磁态分支的能量与 Cr 磁矩。[验证脚本](../../scripts/verify_training_dataset.py)将公开表格与训练归档逐项核对，并用固定母相结构重算 MOM51。重新运行 DFT 需要原始运行输入和 VASP。
-
-[历史 75 构型数据说明](legacy_data_and_provenance.md)记录了早期键长统计教程所用的数据及其筛选口径。
