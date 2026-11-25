@@ -6,9 +6,12 @@
 
 同一占位构型的 FM 和 AFM 初始磁态计算成对筛选。两次计算均需收敛，且两者的每个最终 Cr 局域磁矩绝对值均需处于闭区间 2.9–3.1 μB。训练能量标签取两次 VASP `energy(sigma->0)` 的较小值，单位为每 64 原子晶胞的 eV。FM 和 AFM 表示初始磁态分支。最终磁矩保留正负号及各自归档输出中的 Cr 顺序。
 
+最终训练集包含早期 109 对 DFT 候选经复筛后保留的 82 个构型，以及后续两批 18 个 DFT 候选中保留的 6 个构型。[筛选与来源说明](../../docs/zh/data_and_provenance.md)列出了各浓度的数量和 6 个补充构型的组号。
+
 | 文件 | 内容 |
 | --- | --- |
 | [configurations.csv](configurations.csv) | 占据位点、各位点族计数、两种磁态的能量和磁矩、所选能量及结构文件路径。 |
+| [configuration_provenance.csv](configuration_provenance.csv) | 来源批次、分组及两种磁态各自的归档运行目录，目录以原项目根目录为基准。 |
 | [filtered88.npz](filtered88.npz) | 原始训练数组，保留原顺序，可用 NumPy 的 `allow_pickle=False` 读取。 |
 | [mom51_counts.csv](mom51_counts.csv) | 88 × 51 路径计数矩阵，每行的计数之和为 228。 |
 | [mom51_feature_catalog.csv](mom51_feature_catalog.csv) | 特征顺序、名称、两段参考金属–氧键长及各特征的训练集计数范围。键长以 Å 为单位。 |

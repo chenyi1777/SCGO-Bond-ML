@@ -1,5 +1,7 @@
 # 动手复现教程
 
+> 这是早期 75 构型的历史教程与数据快照。请参阅[当前 88 构型训练集](../../appendices/appendix-f/README.zh-CN.md)。
+
 [English](../en/tutorial.md) · [首页](../../README.zh-CN.md)
 
 ## 1. 运行前先看输入

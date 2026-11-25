@@ -6,9 +6,12 @@ This dataset contains the 88 Cr/Ga occupations used to train the SCGO energy mod
 
 The FM- and AFM-initialized calculations for each occupation were screened as a pair. Both had to converge and every final Cr local moment in each calculation had to satisfy 2.9 ≤ |mCr| ≤ 3.1 μB, including the endpoints. The training target is the lower of the two VASP `energy(sigma->0)` values, in eV per 64-atom cell. FM and AFM identify the initial spin branches. The signed final moments follow the Cr order within each archived output.
 
+The training set combines 82 configurations retained from the earlier 109-pair DFT archive and six retained from 18 candidates in two additional DFT batches. The [screening and provenance notes](../../docs/en/data_and_provenance.md) give the counts by composition and identify the six additional groups.
+
 | File | Contents |
 | --- | --- |
 | [configurations.csv](configurations.csv) | Occupied sites, per-family counts, both spin-branch energies and moments, selected energy, and structure paths. |
+| [configuration_provenance.csv](configuration_provenance.csv) | Source cohort, batch, and archived project-relative directories for both spin branches. |
 | [filtered88.npz](filtered88.npz) | Original training arrays in their original order. Load with NumPy using `allow_pickle=False`. |
 | [mom51_counts.csv](mom51_counts.csv) | The 88 × 51 path-count matrix. Each row sums to 228. |
 | [mom51_feature_catalog.csv](mom51_feature_catalog.csv) | Feature order and identifiers, both reference metal–O bond lengths in Å, and training-set count ranges. |

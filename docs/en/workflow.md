@@ -1,5 +1,7 @@
 # Workflow and reasoning
 
+> Historical tutorial and data snapshot for 75 configurations. See the [current 88-configuration training dataset](../../appendices/appendix-f/README.md).
+
 [中文](../zh/workflow.md) · [Home](../../README.md)
 
 ## 1. What question does this workflow answer?
@@ -22,7 +24,7 @@ The following sequence summarizes the technical decisions, rather than reproduci
 3. A new bulk file was supplied. Its filename/title suggested Ba/Fe, while its species line specified Sr/Ga/O. The user explicitly confirmed the species line.
 4. The new bulk was first counted without Cr: 13 bond classes and 16 observed path classes. This was a baseline, not the completed doped study.
 5. The scope was clarified: apply the previous 2/4/6/8/10 Cr occupation labels to the **new** bulk and repeat the analysis. The old bulk must not provide replacement coordinates.
-6. All 75 occupations were mapped by their coordinate-line labels, generated, counted, and checked. The user confirmed this result. This is the authoritative calculation reproduced here.
+6. All 75 occupations were mapped by their coordinate-line labels, generated, counted, and checked. The user confirmed this result. This historical workflow reproduces that counting example.
 
 The old bulk itself and superseded tables are omitted to avoid mixing reference geometries. The earlier source archive is identified in the provenance documentation.
 

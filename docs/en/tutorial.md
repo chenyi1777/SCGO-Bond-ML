@@ -1,5 +1,7 @@
 # Hands-on tutorial
 
+> Historical tutorial and data snapshot for 75 configurations. See the [current 88-configuration training dataset](../../appendices/appendix-f/README.md).
+
 [中文](../zh/tutorial.md) · [Home](../../README.md)
 
 ## 1. Inspect the inputs before running code
